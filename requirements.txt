@@ -1,0 +1,5 @@
+playwright
+requests
+python-dotenv
+jinja2
+pyyaml

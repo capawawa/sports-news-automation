@@ -1,0 +1,119 @@
+# Sports Terminology Explainers - 25-word explanations for dynamic content insertion
+# Based on verified sports terminology and abbreviations
+
+# Record and Performance Abbreviations
+record_abbreviations:
+  wr: "World Record - the best performance ever achieved globally in a specific sport or athletic event across all competitions"
+  or: "Olympic Record - the highest performance achieved at the Olympic Games in a specific event during Olympic competition history"
+  cr: "Championship Record - the best performance achieved at a specific championship event, course record for marathons, or collegiate record"
+  gr: "Games Record - the highest performance achieved at a specific games or multi-sport event during that competition's history"
+  pr: "Paralympic Record - the best performance ever achieved at the Paralympic Games in a specific event for athletes with disabilities"
+
+# NFL Terms
+nfl_terms:
+  touchdown: "Six-point score achieved when a team carries or catches the ball in the opponent's end zone during gameplay"
+  field goal: "Three-point score made by kicking the football through the opponent's goal posts from anywhere on the playing field"
+  safety: "Two-point score awarded to the defense when the offensive team is tackled in their own end zone"
+  down: "One of four attempts a team gets to advance the ball at least ten yards up the field"
+  quarterback: "Offensive player who throws passes, hands off the ball, and leads the team's offensive plays and strategy"
+  interception: "Defensive play where the opposing team catches a pass intended for the offensive team, gaining possession of ball"
+  fumble: "When a player loses control of the football during play, potentially allowing the other team to recover it"
+  blitz: "Defensive strategy where extra players rush the quarterback to pressure him into making a quick, potentially poor decision"
+  red zone: "Area between the twenty-yard line and the goal line where teams have the best scoring opportunities"
+  two minute warning: "Automatic timeout called by officials when two minutes remain in each half of an NFL game"
+
+# NBA Terms  
+nba_terms:
+  three pointer: "Basketball shot taken from beyond the three-point line, worth three points instead of the standard two points"
+  free throw: "Uncontested one-point shot awarded to a player after certain fouls, taken from the free throw line"
+  rebound: "Act of gaining possession of the basketball after a missed shot attempt by either team during gameplay"
+  assist: "Pass that directly leads to a teammate scoring a basket, officially recorded as a statistical achievement for passer"
+  steal: "Defensive play where a player legally takes the ball away from an opponent who has possession"
+  block: "Defensive play where a player legally deflects or stops an opponent's shot attempt while it's going upward"
+  dunk: "Forceful shot where a player jumps and pushes the ball directly through the basket with one or both hands"
+  alley oop: "Play where one player throws the ball near the basket for a teammate to catch and score immediately"
+  pick and roll: "Offensive play where one player sets a screen then moves toward the basket for a potential pass"
+  shot clock: "Twenty-four second timer that requires teams to attempt a shot, adding pace and excitement to basketball games"
+
+# MLB Terms
+mlb_terms:
+  rbi: "Runs Batted In - statistic crediting a batter when their offensive action results in a teammate scoring a run"
+  home run: "Hit where the batter circles all bases and scores a run, typically by hitting the ball over outfield fence"
+  strikeout: "When a batter accumulates three strikes during their at-bat, resulting in an out for the batting team"
+  walk: "When a pitcher throws four balls outside the strike zone, allowing the batter to advance to first base"
+  double play: "Defensive play where two offensive players are put out during the same continuous play, ending the inning quickly"
+  stolen base: "When a baserunner advances to the next base during a pitch without the ball being hit by batter"
+  earned run average: "ERA - statistic measuring average number of earned runs a pitcher allows per nine innings pitched during season"
+  grand slam: "Home run hit with bases loaded, scoring four runs and representing the maximum possible single-play scoring opportunity"
+  sacrifice fly: "Fly ball out that allows a baserunner to tag up and score a run, credited as RBI"
+  inning: "Period of play where both teams get a turn to bat and play defense, with nine total innings"
+
+# NHL Terms
+nhl_terms:
+  hat trick: "Three goals scored by the same player in a single game, traditionally celebrated by fans throwing hats"
+  power play: "Advantage situation where one team has more players on ice due to opponent's penalty, lasting two minutes"
+  penalty kill: "Defensive strategy used by the team playing shorthanded while their player serves a penalty in box"
+  assist: "Pass that directly contributes to a teammate scoring a goal, worth one point in player statistics and standings"
+  save: "When a goaltender successfully stops a shot attempt, preventing the opposing team from scoring a goal"
+  icing: "Violation where a player shoots the puck from their defensive zone past the opponent's goal line without contact"
+  offside: "Violation where an attacking player enters the offensive zone before the puck, stopping play for face-off"
+  face off: "Method of starting play where two players compete for puck control at designated circles on ice surface"
+  one timer: "Shot taken immediately upon receiving a pass without stopping or controlling the puck first, creating scoring opportunity"
+  goaltender: "Player who defends the goal and tries to prevent the opposing team from scoring by stopping puck shots"
+
+# MLS/Soccer Terms
+mls_terms:
+  goal: "Score achieved when the ball completely crosses the goal line between the goal posts and under crossbar"
+  assist: "Pass that directly leads to a teammate scoring a goal, officially recorded as a statistical achievement for passer"
+  yellow card: "Caution issued by referee for minor offenses or unsporting behavior, serving as formal warning to player"
+  red card: "Serious penalty resulting in immediate player dismissal from match for reckless fouls or serious infractions like fighting"
+  offside: "Violation when attacking player is nearer to goal than second-last opponent when ball is played by teammate"
+  penalty kick: "Direct free kick taken from penalty spot, awarded for serious fouls committed inside the penalty area"
+  corner kick: "Restart awarded to attacking team when ball last touches defending player before crossing goal line"
+  free kick: "Restart awarded after a foul, allowing the fouled team to kick the ball without interference from opponents"
+  handball: "Foul called when a player deliberately touches the ball with their hand or arm during active play"
+  stoppage time: "Additional time added to each half to compensate for delays during regular play, determined by referee"
+
+# General Sports Terms
+general_terms:
+  mvp: "Most Valuable Player - award given to the player deemed most important to their team's success during season"
+  rookie: "First-year professional player who is new to the league and competing at the professional level for first time"
+  veteran: "Experienced professional player who has played multiple seasons and brings leadership and knowledge to team"
+  draft: "Annual selection process where teams choose new players from college or amateur ranks to join professional league"
+  trade deadline: "Final date during season when teams can exchange players, after which rosters are generally locked until offseason"
+  playoffs: "Post-season elimination tournament where top teams compete for championship after completing the regular season schedule"
+  championship: "Final game or series that determines the league winner and ultimate champion for that particular season"
+  hall of fame: "Institution honoring the greatest players, coaches, and contributors in a sport's history with permanent recognition"
+  comeback: "Situation where a team overcomes a significant deficit to tie or win a game, often creating dramatic excitement"
+  upset: "Unexpected victory by an underdog team or player over a heavily favored opponent, surprising fans and experts"
+  overtime: "Extra period of play used to determine a winner when regulation time ends with teams tied"
+  buzzer beater: "Shot made just before time expires, often determining the outcome of close games in dramatic fashion"
+  walk off: "Game-ending play that immediately wins the game for the home team, allowing fans to 'walk off' in celebration"
+  clutch: "Performing exceptionally well under pressure in crucial moments when the game outcome hangs in the balance"
+  dynasty: "Team that wins multiple championships over several years, establishing sustained excellence and dominance in their sport"
+
+# League-Specific Abbreviations
+league_abbreviations:
+  nfl: "National Football League - premier professional American football league featuring thirty-two teams across the United States"
+  nba: "National Basketball Association - top professional basketball league with thirty teams competing across the United States and Canada"
+  mlb: "Major League Baseball - highest level professional baseball league with thirty teams in the United States and Canada"
+  nhl: "National Hockey League - premier professional ice hockey league with thirty-two teams in North America including Canada"
+  mls: "Major League Soccer - top professional soccer league in United States and Canada with thirty clubs competing annually"
+  afc: "American Football Conference - one of two conferences in NFL, with sixteen teams competing for conference championship annually"
+  nfc: "National Football Conference - one of two conferences in NFL, with sixteen teams competing for conference championship annually"
+  acc: "Atlantic Coast Conference - major college sports conference featuring universities primarily located along the Atlantic coast"
+  sec: "Southeastern Conference - premier college sports conference known for football excellence and competitive athletic programs throughout South"
+  big ten: "Big Ten Conference - major college sports conference featuring universities primarily in Midwest and Northeast United States"
+
+# Statistical Terms
+statistical_terms:
+  era: "Earned Run Average - baseball statistic measuring average earned runs allowed by pitcher per nine innings pitched"
+  batting average: "Baseball statistic calculated by dividing hits by at-bats, measuring a player's success rate when batting"
+  field goal percentage: "Basketball statistic measuring the percentage of field goal attempts that result in successful baskets during games"
+  completion percentage: "Football statistic measuring the percentage of pass attempts that are successfully caught by intended receivers during games"
+  save percentage: "Hockey statistic measuring the percentage of shots on goal that are successfully stopped by the goaltender"
+  plus minus: "Hockey and basketball statistic tracking whether a player's team outscores opponents while that player is actively playing"
+  slugging percentage: "Baseball statistic measuring total bases achieved per at-bat, indicating a player's power hitting ability and effectiveness"
+  yards per carry: "Football statistic measuring average yards gained per rushing attempt, indicating a running back's efficiency and effectiveness"
+  assists per game: "Basketball statistic measuring average number of assists a player records per game over a specified time period"
+  goals against average: "Hockey statistic measuring average number of goals allowed by goaltender per sixty minutes of ice time played"

@@ -1,0 +1,140 @@
+# {{ newsletter_name }}
+*{{ newsletter_description }}*
+
+---
+
+**{{ current_day }}, {{ current_date }}**
+
+Welcome to your weekly sports digest! We've analyzed {{ total_articles }} articles across {{ leagues_covered }} major leagues to bring you the most engaging stories, insights, and educational content.
+
+---
+
+## 🔥 Top Stories
+
+{% for story in top_stories %}
+### {{ story.emoji }} {{ story.hook }}
+
+**{{ story.title }}**  
+*{{ story.league_name }} • {{ story.source }} • {{ story.published_at | format_date }}*
+
+{{ story.description | truncate_words(40) }}
+
+[Read Full Story]({{ story.url }}?{{ utm_params.utm_source }}&{{ utm_params.utm_medium }}&{{ utm_params.utm_campaign }})
+
+---
+{% endfor %}
+
+{% if not top_stories %}
+*No major breaking stories this week - check out the league updates below for the latest news.*
+
+---
+{% endif %}
+
+## 🏆 League Updates
+
+{% for league_code, league_data in league_content.items() %}
+{% if league_data.articles %}
+### {{ league_data.emoji }} {{ league_data.name }} ({{ league_data.season }})
+
+*{{ league_data.total_count }} stories this week{% if league_data.controversy_count > 0 %} • {{ league_data.controversy_count }} high-drama stories{% endif %}*
+
+{% for article in league_data.articles %}
+#### {{ article.hook }}
+
+**{{ article.title }}**  
+*{{ article.source }} • {{ article.published_at | format_date }}*
+
+{{ article.description | truncate_words(35) }}
+
+{% if article.is_controversy %}
+🚨 **High Drama Alert:** This story has significant controversy elements.
+{% endif %}
+
+{% if article.opinion %}
+💭 **Our Take:** {{ article.opinion }}
+{% endif %}
+
+[Read More]({{ article.url }}?{{ utm_params.utm_source }}&{{ utm_params.utm_medium }}&{{ utm_params.utm_campaign }})
+
+---
+{% endfor %}
+
+{% endif %}
+{% endfor %}
+
+## 📚 Sports Education Corner
+
+*Learn something new about the sports you love*
+
+{% for edu_content in educational_content %}
+### {{ edu_content.emoji }} {{ edu_content.topic | title }}
+
+{{ edu_content.content }}
+
+---
+{% endfor %}
+
+{% if not educational_content %}
+*Educational content will be featured here in future newsletters as we analyze more sports stories.*
+
+---
+{% endif %}
+
+## 📊 This Week's Numbers
+
+- **Total Articles Analyzed:** {{ total_articles }}
+- **Leagues Covered:** {{ leagues_covered }}
+- **Top Stories Featured:** {{ top_stories | length }}
+- **Educational Topics:** {{ educational_content | length }}
+
+---
+
+## 🔗 Quick Links
+
+{% for league_code, league_info in sports_leagues.items() %}
+- {{ league_info.emoji }} [{{ league_info.full_name }}](https://www.{{ league_code.lower() }}.com) ({{ league_info.season_year }} Season)
+{% endfor %}
+
+---
+
+## 💌 Stay Connected
+
+**Love this newsletter?** Forward it to a fellow sports fan!
+
+**Have feedback?** Reply to this email - we read every message.
+
+**Want more sports content?** Follow us for daily updates and breaking news.
+
+**Share and Earn:** Refer friends using your personal link: [Substack {{ referral_link }}]({{ referral_link }})
+
+---
+
+{% if paid_tier_content %}
+## 🎯 Bonus Content for Subscribers
+
+{% for bonus in paid_tier_content %}
+### {{ bonus.title }}
+
+{{ bonus.content }}
+
+{% if bonus.quiz %}
+**Quick Quiz:** {{ bonus.quiz.question }}
+*Answer: {{ bonus.quiz.answer }}*
+{% endif %}
+
+---
+{% endfor %}
+
+**Archive Access:** [View all past newsletters]({{ archive_link }})
+
+---
+{% endif %}
+
+*This newsletter was automatically generated using real sports data and news sources. All article links include tracking parameters for analytics purposes.*
+
+**Unsubscribe** | **Manage Preferences** | **View in Browser**
+
+---
+
+*{{ newsletter_name }} • {{ current_date }}*  
+*Bringing you the best in sports news, analysis, and education*

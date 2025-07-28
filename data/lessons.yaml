@@ -1,0 +1,105 @@
+# Sports Education Content - Real Rules and Concepts for Major Leagues
+# Based on verified 2024-2025 season information
+
+NFL:
+  basic_rules:
+    explanation: "NFL games are played on a 360-foot long, 160-foot wide field. Teams get four attempts (downs) to move the ball at least 10 yards. The objective is to advance the ball into the opponent's end zone to score points."
+    keywords: ["downs", "field", "yards", "end zone", "rules"]
+  
+  scoring_system:
+    explanation: "NFL scoring: Touchdown = 6 points (ball in end zone), Extra Point = 1 point (kick after touchdown), Two-Point Conversion = 2 points (play from short distance), Field Goal = 3 points (kick through goal posts), Safety = 2 points (tackle opponent in their end zone)."
+    keywords: ["touchdown", "field goal", "safety", "points", "scoring", "extra point"]
+  
+  game_structure:
+    explanation: "NFL games have four 15-minute quarters. The 2024-2025 season runs until January 5, 2025, followed by Wild Card playoffs (Jan 11-13), Divisional rounds (Jan 18-19), Conference Championships (Jan 26), and Super Bowl on February 9, 2025."
+    keywords: ["quarters", "playoffs", "super bowl", "season", "schedule"]
+  
+  positions:
+    explanation: "NFL teams have offensive and defensive units. Key offensive positions: Quarterback (throws passes), Fullback (blocking/short runs), Tight End (catching/blocking). Key defensive positions: Defensive Ends (rush quarterback), Cornerbacks (cover receivers), Safeties (deep coverage)."
+    keywords: ["quarterback", "fullback", "tight end", "defensive end", "cornerback", "safety", "positions"]
+
+NBA:
+  basic_rules:
+    explanation: "NBA games have four 12-minute quarters. Teams score by shooting the ball through the opponent's basket. If tied after regulation, games go to 2:30 overtime periods. The shot clock is 24 seconds, adding excitement and pace to gameplay."
+    keywords: ["quarters", "overtime", "shot clock", "basketball", "rules"]
+  
+  scoring_system:
+    explanation: "NBA scoring: Field goals inside the three-point line = 2 points, shots beyond the three-point line = 3 points, free throws = 1 point each. Free throws are awarded when fouled during shooting (2 for 2-point attempts, 3 for 3-point attempts)."
+    keywords: ["three pointer", "free throw", "field goal", "points", "scoring", "fouls"]
+  
+  season_structure:
+    explanation: "The 2024-2025 NBA season started October 22, 2024 and ends April 13, 2025. Key dates: Trade Deadline (Feb 6, 2025), All-Star Weekend in San Francisco (Feb 14-16, 2025), Play-in Tournament (Apr 15-18, 2025)."
+    keywords: ["season", "trade deadline", "all star", "play in", "schedule"]
+  
+  gameplay:
+    explanation: "NBA teams cannot be the last to touch the ball before it goes out-of-bounds, resulting in loss of possession. New 2024-2025 rules include replay reviews for out-of-bounds calls and coach challenges for these situations."
+    keywords: ["out of bounds", "possession", "replay", "challenge", "rules"]
+
+MLB:
+  basic_rules:
+    explanation: "MLB games are played between two teams of 9 players each over 9 innings. Each team gets a turn to bat and play defense per inning. The objective is to score more runs by completing a circuit of the bases. The team with the most runs after 9 innings wins."
+    keywords: ["innings", "runs", "bases", "9 players", "baseball", "rules"]
+  
+  scoring_system:
+    explanation: "MLB scoring centers on Runs Batted In (RBIs). An RBI is awarded when a run scores due to a batter's action: run-scoring hits, bases-loaded walks, or being hit by a pitch. No RBI is given for runs scored due to errors or double plays."
+    keywords: ["RBI", "runs", "hits", "walks", "scoring", "errors"]
+  
+  season_structure:
+    explanation: "The 2025 MLB season starts March 27, 2025 and ends September 28, 2025. Each team plays 162 games total, including 13 games against each divisional team. New 2025 rules include stricter penalties for defensive shifts and potential automated strike zone testing."
+    keywords: ["season", "162 games", "divisions", "automated strike zone", "schedule"]
+  
+  pitching_basics:
+    explanation: "MLB pitching involves strikes (good pitches in the strike zone) and balls (pitches outside the zone). The 2025 season introduces a pitch timer and potential automated strike zone (ABS) testing in spring training to improve game pace."
+    keywords: ["strikes", "balls", "pitch timer", "strike zone", "pitching"]
+
+NHL:
+  basic_rules:
+    explanation: "NHL games are played on a 200-foot long, 85-foot wide ice rink over three periods. Face-offs occur at designated circles with only two players allowed inside during the face-off. The 2024-2025 season runs from October 4, 2024 to June 17, 2025."
+    keywords: ["periods", "face off", "rink", "ice hockey", "rules"]
+  
+  scoring_system:
+    explanation: "NHL scoring: Goals = 1 point, Assists = 1 point. Total points = Goals + Assists. Special situations include Power Play Goals (scored with player advantage) and Shorthanded Goals (scored while playing with fewer players due to penalties)."
+    keywords: ["goals", "assists", "points", "power play", "shorthanded", "scoring"]
+  
+  penalties:
+    explanation: "NHL penalties create power plays (numerical advantage) and penalty kills (defensive strategy while shorthanded). Power play percentage measures team effectiveness during these advantages. Major penalties have additional complexity in goal calculations."
+    keywords: ["penalties", "power play", "penalty kill", "major penalty", "advantage"]
+  
+  season_structure:
+    explanation: "The 2024-2025 NHL season features 82 games per team across 32 teams, ending with Stanley Cup playoffs through June 17, 2025. New rules include Coach's Challenge for Delay of Game and updated Backup Goaltender Warm-Up rules."
+    keywords: ["82 games", "32 teams", "stanley cup", "playoffs", "coach challenge"]
+
+MLS:
+  basic_rules:
+    explanation: "MLS games are played with 11 players per team (10 outfield + 1 goalkeeper) over two 45-minute halves. The league has 30 clubs split into East and West conferences. Each club plays 34 matches per season, facing conference opponents twice."
+    keywords: ["11 players", "goalkeeper", "halves", "conferences", "34 matches", "soccer"]
+  
+  scoring_system:
+    explanation: "MLS/Soccer scoring involves goals (ball completely crosses goal line). Players can earn assists for passes leading to goals. The card system includes yellow cards (cautions) and red cards (ejections). Two yellow cards equal one red card and dismissal."
+    keywords: ["goals", "assists", "yellow card", "red card", "ejection", "scoring"]
+  
+  offside_rule:
+    explanation: "MLS offside occurs when a player is nearer to the opponent's goal than the opposing goalkeeper and positioned beyond the second-last opponent. Any body part that can score must be past the second-to-last defender to be considered offside."
+    keywords: ["offside", "goalkeeper", "second last opponent", "body part", "defender"]
+  
+  season_structure:
+    explanation: "The 2025 MLS season runs from February 22 to October 18, 2025. Key dates include Rivalry Week (May 14-18), All-Star Game (July 23), and Leagues Cup start (July 29). San Diego FC joins as the newest expansion team."
+    keywords: ["season", "rivalry week", "all star", "leagues cup", "san diego fc", "expansion"]
+  
+  roster_rules:
+    explanation: "MLS clubs can roster up to 30 players with 18 chosen for game day. Teams can use unlimited funds for player trades and acquire up to two players per year for cash. Special categories include Designated Players and U-22 Initiative Players."
+    keywords: ["30 players", "18 game day", "trades", "designated players", "u-22 initiative"]
+
+# Cross-Sport Concepts
+general_sports:
+  professional_leagues:
+    explanation: "The 'Big Four' major professional sports leagues in North America are MLB (baseball), NBA (basketball), NFL (football), and NHL (hockey). MLS (soccer) is also a major professional league with growing popularity and viewership."
+    keywords: ["big four", "professional", "major leagues", "north america"]
+  
+  playoffs_concept:
+    explanation: "Most professional sports use playoff systems to determine champions. Teams qualify based on regular season performance, then compete in elimination rounds. Examples: NFL Super Bowl, NBA Finals, MLB World Series, NHL Stanley Cup, MLS Cup."
+    keywords: ["playoffs", "elimination", "champion", "finals", "cup", "world series"]
+  
+  trades_transfers:
+    explanation: "Professional sports allow teams to trade/transfer players between organizations. This involves exchanging player contracts, draft picks, or cash. Trade deadlines exist in most leagues to maintain competitive balance during seasons."
+    keywords: ["trades", "transfers", "contracts", "draft picks", "trade deadline", "competitive balance"]
